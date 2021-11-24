@@ -1,0 +1,45 @@
+{
+  "lang": "en-US",
+  "id": "PoetryDB",
+  "name": "PoetryDB",
+  "description": "Motivate your self by random advice, inspiration quotes and read collection of sonnets and poems from famous writers",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "orientation": "portrait",
+  "start_url": "/index.html",
+  "categories": [
+    "book/reference",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon56x56.png",
+      "type": "image/png",
+      "sizes": "56x56"
+    },
+    {
+      "src": "/icons/icon112x112.png",
+      "type": "image/png",
+      "sizes": "112x112"
+    }
+  ],
+  "b2g_features": {
+    "version": "3.0.0",
+    "type": "web",
+    "default_locale": "en-US",
+    "developer": {
+      "name": "arma7x",
+      "url": "https://www.kaiostech.com"
+    },
+    "origin": "poetry-db",
+    "permissions": {},
+    "locales": {
+      "en-US": {
+        "name": "PoetryDB",
+        "subtitle": "Motivate your self by random advice, inspiration quotes and read collection of sonnets and poems from famous writers",
+        "description": "Motivate your self by random advice, inspiration quotes and read collection of sonnets and poems from famous writers"
+      }
+    }
+  }
+}

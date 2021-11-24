@@ -1,0 +1,19 @@
+<div class="kui-flex-wrap">
+  <style>
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      margin:0px;
+      padding:0px;
+    }
+  </style>
+  <ul class="kui-list kai-container" style="font-size:14px;width:240px;">
+    {{#filtered}}
+    <li class="poemNav kui-divider">
+      <div style="margin:2px;">
+        <pre>{{ title }}</pre>
+      </div>
+    </li>
+    {{/filtered}}
+  </ul>
+</div>
