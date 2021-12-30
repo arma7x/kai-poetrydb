@@ -294,6 +294,7 @@ window.addEventListener("load", function() {
         this.$router.showToast(`Updated to version ${APP_VERSION}`);
         this.$router.push('changelogs');
         window.localStorage.setItem('APP_VERSION', APP_VERSION);
+        return;
       }
       if (this.data.authors.length === 0) {
         this.$router.showLoading();
