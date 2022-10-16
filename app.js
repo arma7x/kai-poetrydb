@@ -1,7 +1,7 @@
 const APP_VERSION = "1.0.0";
 
 const xhr = function(method, url, data={}, query={}, headers={}) {
-  url = `https://malaysiaapi.herokuapp.com/proxy?url=${encodeURIComponent(url)}`;
+  url = `https://malaysiaapi-arma7x.koyeb.app/proxy?url=${encodeURIComponent(url)}`;
   return new Promise((resolve, reject) => {
     var xhttp = new XMLHttpRequest();
     var _url = new URL(url);
@@ -320,7 +320,7 @@ window.addEventListener("load", function() {
       }
     },
     unmounted: function() {
-      
+
     },
     methods: {
       search: function(keyword) {
